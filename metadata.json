@@ -1,0 +1,6 @@
+{
+  "name": "MBA Policy Assistant",
+  "description": "Georgetown MBA student policy assistant grounded in official policies using Gemini 3.5 Flash and File Search.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

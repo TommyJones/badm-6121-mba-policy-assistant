@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-gt-blue: #041E42;
+  --color-gt-blue-dark: #021227;
+  --color-gt-blue-light: #0d346c;
+  --color-gt-gray: #63666A;
+  --color-gt-gray-light: #E8EAED;
+  --color-gt-gold: #C49A45;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  background-color: #F8F9FA;
+  color: #1A1F2C;
+  -webkit-font-smoothing: antialiased;
+}
