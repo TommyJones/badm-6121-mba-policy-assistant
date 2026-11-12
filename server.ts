@@ -34,8 +34,9 @@ export interface PolicyAskResponse {
   question: string;
 }
 
-// Georgetown MBA policy store identifier
-const GEORGETOWN_MBA_FILE_SEARCH_STORE = 'fileSearchStores/mbapolicies-ldjpw9byydqw';
+// Georgetown MBA policy store identifier (can be overridden via FILE_SEARCH_STORE_NAME env var)
+const GEORGETOWN_MBA_FILE_SEARCH_STORE =
+  process.env.FILE_SEARCH_STORE_NAME || 'fileSearchStores/mbapolicies-ldjpw9byydqw';
 
 
 app.post('/api/policy/ask', async (req: Request, res: Response) => {
